@@ -14,7 +14,7 @@ export default function Home() {
       <HowItWorksSection/>
       <WhyNotChatgpt/>
       <Pricing/>
-      <Banner/>
+      {/* <Banner/> */}
       <Footer/>
     </main>
   );

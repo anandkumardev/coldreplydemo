@@ -5,15 +5,15 @@ import {CheckIcon} from 'lucide-react';
 export default function WhyNotChatgpt() {
 
     return (
-        <section   id='whynotchatgpt' className='flex flex-col items-center justify-center'>
+        <section id='whynotchatgpt' className='flex flex-col items-center justify-center px-4 md:px-16 lg:px-24'>
             <SectionTitle title='Why Not ChatGPT?' description='Because ColdReply is built specifically for cold email replies.  No prompting. No tweaking. Just instant, ready-to-send responses.' />
 
             {/* comparsion cards  */}
 
-            <div className='grid md:grid-cols-2 mt-10 gap-8 relative'>
+            <div className='mt-14 flex flex-wrap items-center justify-center gap-10'>
 
                 {/* chatGPT card */}
-                <div className="border rounded-xl p-10 shadow-sm  border-slate-200">
+                <div className="border rounded-xl p-10 hover:shadow-sm  border-slate-200 pr-25">
                     <h3 className="text-2xl font-semibold mb-6 text-gray-800">ChatGPT</h3>
                     <ul className='space-y-4 text-gray-600'>
                         <li className='flex items-center gap-2'>
@@ -47,7 +47,7 @@ export default function WhyNotChatgpt() {
                 </div>
 
                 {/* ColdReply card */}
-                <div className='rounded-xl border border-slate-200 p-10 shadow-md bg-white'>
+                <div className='rounded-xl border border-slate-200 p-10 pr-25 hover:shadow-md bg-white'>
                    <h3 className="text-2xl font-semibold mb-6 text-gray-900">ColdReply</h3>
                    <ul className='space-y-4 text-gray-700'>
                     <li className='flex items-center gap-2'>

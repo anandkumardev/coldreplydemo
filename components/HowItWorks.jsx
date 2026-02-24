@@ -1,6 +1,6 @@
 import SectionTitle from '@/components/SectionTitle';
 
-import {Mails, SquareMousePointerIcon, Send } from 'lucide-react';
+import {Mails, SquareMousePointerIcon, SendHorizontal } from 'lucide-react';
 
 export default function HowItWorksSection() {
     const data = [
@@ -17,7 +17,7 @@ export default function HowItWorksSection() {
         {
             title: 'Copy and Send',
             description: 'Get a short, polite, human-sounding reply instantly. Copy it and send in seconds.',
-            icon: Send,
+            icon: SendHorizontal,
         },
     ];
     return (
