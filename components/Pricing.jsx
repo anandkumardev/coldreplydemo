@@ -5,15 +5,15 @@ import Link from 'next/link';
 export default function OurPricingSection() {
     const data = [
         {
-            title: 'Free Tier',
-            description: 'Perfect for small business and personal use',
+            title: 'Free',
+            description: 'Best for trying ColdReply',
             price: '$0',
             buttonText: 'Get Started',
             features: ['Create up to 10 free projects', 'Get 10 AI tasks monthly', 'Generate simple AI text content', 'Access a basic chatbot tool', 'Receive email-based support only'],
         },
         {
-            title: 'Pro Plan',
-            description: 'Perfect for medium business personal use',
+            title: 'Pro',
+            description: 'For busy founders and professionals',
             price: '$49',
             mostPopular: true,
             buttonText: 'Upgrade Now',
@@ -22,7 +22,7 @@ export default function OurPricingSection() {
     ];
 
     return (
-        <section id='pricing' className='flex flex-col items-center justify-center'>
+        <section id='pricing' className='mb-14 flex flex-col items-center justify-center'>
             <SectionTitle title='Our Pricing' description='Our pricing plans are affordable and flexible, catering to all budgets. Choose the plan that suits your needs best.' />
             <div className='mt-12 flex flex-col md:flex-row items-center justify-center gap-6'>
                 {data.map((item, index) => (

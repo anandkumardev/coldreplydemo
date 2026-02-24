@@ -24,7 +24,7 @@ export default function HowItWorksSection() {
         <section   id='howitworks' className='flex flex-col items-center justify-center'>
             <SectionTitle title='How It Works' description='Paste the email. Select your intent. Generate  a smart, human-sounding reply instantly. Thats it.' />
 
-            <div className='mt-14 flex flex-wrap items-center justify-center gap-10'>
+            <div className='mt-18 flex flex-wrap items-center justify-center gap-10'>
                 {data.map((item, index) => (
                     <div key={index} className='rounded-[14px] bg-neutral-400/80 p-0.5 pt-4 transition-all duration-300 hover:-translate-y-1'>
                         <div className='relative flex max-w-90 flex-col items-center rounded-xl bg-white p-6 pb-18'>
