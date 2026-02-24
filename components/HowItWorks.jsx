@@ -27,7 +27,7 @@ export default function HowItWorksSection() {
             <div className='mt-14 flex flex-wrap items-center justify-center gap-10'>
                 {data.map((item, index) => (
                     <div key={index} className='rounded-[14px] bg-neutral-400/80 p-0.5 pt-4 transition-all duration-300 hover:-translate-y-1'>
-                        <div className='relative flex max-w-90 flex-col items-center rounded-xl bg-white p-6 pb-10'>
+                        <div className='relative flex max-w-90 flex-col items-center rounded-xl bg-white p-6 pb-18'>
                             <div className='absolute -top-8 rounded-full bg-neutral-900 p-3'>
                                 <item.icon className='size-6 text-white' />
                             </div>
