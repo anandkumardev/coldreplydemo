@@ -33,7 +33,7 @@ export default function HeroSection() {
             <h1 className='mt-4 max-w-4xl scale-105 bg-gradient-to-r from-neutral-800 to-[#748298] bg-clip-text text-center text-4xl/12 font-bold text-transparent md:scale-100 md:text-7xl/20'>Reply to Cold Emails <span className='scale-105 bg-gradient-to-r from-neutral-800 to-[#586374] bg-clip-text'>Instantly</span></h1>
             <p className='mt-2 max-w-2xl text-center text-sm text-gray-700'>Stop wasting time thinking about how to reply to cold emails. Just paste the email, choose what you want to say, and get a clear, polite, human-sounding short reply in seconds.</p>
 
-            <Link href='/' className='mt-8 flex items-center gap-2 rounded-full bg-neutral-900 px-8 py-2.5 font-medium text-white transition hover:opacity-90'>
+            <Link href='/' className='mt-8 flex items-center gap-2 rounded-full bg-neutral-900 px-8 py-2.5 font-medium text-white transition  hover:scale-105 duration-300'>
                 <span>Try It Free</span>
                 <ArrowRightIcon className='size-5' />
             </Link>
@@ -42,8 +42,8 @@ export default function HeroSection() {
                 {specialFeatures.map((feature, index) => (
                     <p className='flex items-center gap-2' key={index}>
                         <div className='rounded-full bg-green-600 p-1'>
-                                                                <CheckIcon className='size-3 text-white' strokeWidth={2.5} />
-                                                            </div>
+                            <CheckIcon className='size-3 text-white' strokeWidth={2.5} />
+                        </div>
                         <span className='text-gray-500'>{feature}</span>
                     </p>
                 ))}

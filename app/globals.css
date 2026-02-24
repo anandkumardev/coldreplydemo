@@ -6,6 +6,12 @@
   
 }
 
+@layer base {
+    html {
+        -webkit-text-size-adjust: 100%;
+    }
+}
+
 body {
     @apply bg-white text-gray-900 text-sm antialiased;
 }

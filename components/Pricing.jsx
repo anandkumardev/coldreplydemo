@@ -23,7 +23,7 @@ export default function OurPricingSection() {
 
     return (
         <section id='pricing' className='flex flex-col items-center justify-center'>
-            <SectionTitle title='Our Pricing Plan' description='Our pricing plans are affordable and flexible, catering to all budgets. Choose the plan that suits your needs best.' />
+            <SectionTitle title='Our Pricing' description='Our pricing plans are affordable and flexible, catering to all budgets. Choose the plan that suits your needs best.' />
             <div className='mt-12 flex flex-col md:flex-row items-center justify-center gap-6'>
                 {data.map((item, index) => (
                     <div key={index} className='group w-full max-w-80'>
